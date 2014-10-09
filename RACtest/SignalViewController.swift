@@ -15,7 +15,7 @@ class SignalViewController: UIViewController {
     override func awakeFromNib() {
         signal = ([1,2,3,4] as NSArray).rac_sequence.signal()
         signal.subscribeNext { (e) in
-            println("number \(e)")
+            println("number \(e) from \(self)")
         }
     }
     
