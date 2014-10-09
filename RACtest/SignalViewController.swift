@@ -23,7 +23,7 @@ class SignalViewController: UIViewController {
         
         signal = ([1,2,3,4] as NSArray).rac_sequence.signal()
         signal.subscribeNext { (e) in
-            println("number \(e) from \(self)")
+            println("number \(e)")
         }
     }
 
