@@ -28,7 +28,7 @@ class SignalViewController: UIViewController {
     }
 
     deinit {
-        println("deinit SignalViewController, and signal is \(signal)")
+        println("deinit SignalViewController, signal is nil? \(signal == nil)")
     }
 
 
